@@ -1,0 +1,106 @@
+<html>
+	<head>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+  <body>
+    <!-- Flight Log Page -->
+    <section class="pad-top-20 pad-bottom-20" >
+      <div class="container" style="">
+        <div class="row">
+          <span class="text-muted heading">Flight Log</span><br>
+          <div class="">
+            <ul id="flight-options">
+              <li><i class="glyphicon glyphicon-filter"></i> Advanced Filter</li>
+              <li><i class="glyphicon glyphicon-export"></i> Export Logs</li>
+            </ul>
+          </div>
+        </div>    
+      </div>
+    </section>
+    <!-- Advanced Search Section -->
+    <section  class="pad-top-20 pad-bottom-20" id="adv-search-section" style="background:rgba(0,0,0,.4);">
+      <div class="container" style="">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                State
+              </div>
+              <div class="col-md-8">
+                <!-- State Buttons to be Added --> Add State Buttons
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                Aircraft
+              </div>
+              <div class="col-md-8">
+                <!-- Aircraft Dropdown to be Added --> Add Aircraft DropDown
+              </div>
+            </div>
+            <div class="row container">
+              Files List Comes here...
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              Buttons for Airport and Date
+            </div>
+            <div class="row">
+              From City - To City with Drop Downs
+            </div>
+            <div class="row">
+              Start Date - End Date
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-md-offset-5" style="">
+          <center>
+            <button class="btn btn-rounded-focus"><i class="glyphicon glyphicon-filter"></i> Filter Log</button>
+          </center>
+        </div>
+      </div>
+    </section>
+    <!-- Ending of the Advanced Search Section -->
+    
+    <!-- Normal View -->
+    <section class="pad-top-20 pad-bottom-40">
+      <div class="container">
+        <div class="col-md-6">
+          Put the Calendar View in this Part of View
+        </div>
+        <div class="col-md-6" style="padding-right:0px;">
+          <span class="heading text-muted">Mar 26</span><br>
+          <span class="sub-heading" style=""><b>2013</b></span><br>
+          <div class="table-responsive pad-top-20">
+            <table class="table table-hover table-bordered table-condensed" style="">
+              <tr>
+                <th class="col-md-1 small">Lease/Aircraft</th>
+                <th class="col-md-3 small">From</th>
+                <th class="col-md-3 small">To</th>
+                <th class="col-md-4"></th>
+              </tr>
+              <tr>
+                <td class="small">lease1<br><i class="glyphicon glyphicon-map-marker"></i>10231</td>
+                <td><b>DAL</b><br><p class="small text-muted"><i class="glyphicon glyphicon-map-marker"></i> Dallas City</p></td>
+                <td><b>ERW</b><br><p class="small text-muted"><i class="glyphicon glyphicon-map-marker"></i> Newark City</p></td>
+                <td>
+                  <ul class="btn-list">
+                    <li><button class="btn btn-primary small">Details</button></li>
+                    <li><button class="btn btn-warning small">Edit</button></li>
+                    <li><button class="btn btn-danger small">Delete</button></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ending of the Normal View -->
+
+    <!-- Ending of Flight Log Page -->
+  </body>
+</html>

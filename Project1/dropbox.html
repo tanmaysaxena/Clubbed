@@ -1,0 +1,80 @@
+<html>
+	<head>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+  <body>
+    <!-- Flight Log Page -->
+    <div class="container">
+      <!-- Breadcrumb Area -->
+
+      <!-- End of Breadcrumb Area -->
+      <div class="row margin-top-30">
+        <div id="drop-area" class="col-md-5 col-md-offset-1 text-muted text-center pad-top-20 pad-bottom-20 hidden-sm hidden-xs">
+          <i class="super-heading fa fa-dropbox"></i><br>
+          <span class="sub-heading">Drop Files Here</span>
+        </div>
+        <div id="btn-upload-big" class="col-md-5 text-center pad-top-20 pad-bottom-20 btn-look gold-touch">
+          <i class="super-heading fa fa-cloud-upload"></i><br>
+          <span class="sub-heading">Upload</span>
+        </div>
+      </div>    
+      <div class="row margin-top-40">
+        <span class="heading text-muted">In the Box</span>
+        <div class=" table-responsive margin-top-10">
+          <table id="dropbox-table" class="table table-bordered table-hover table-condensed">
+            <!-- Table Headings -->
+            <tr>
+              <th class="col-xs-1">ID</th>
+              <th class="col-md-3 col-sm-3">File</th>
+              <th class="col-md-3 hidden-sm hidden-xs">Added By</th>
+              <th class="col-md-3 col-sm-3">Description</th>
+              <th class="col-md-2 col-sm-2"></th>
+            </tr>
+            <!-- Ending - Table headings -->
+            <!-- Item in Table -->
+            <tr>
+              <td class="text-center">#20</td>
+              <td>Bill-2014.pdf<br><span class="text-muted small">(41.2 MB)</span></td>
+              <td class=" hidden-sm hidden-xs">John Doe</td>
+              <td><p>Billing Info for 2014<p></td>
+              <td>
+                <ul class="sub-heading btn-dropbox-list">
+                  <li><i class="glyphicon glyphicon-arrow-down"></i></li>
+                  <li><i class="glyphicon glyphicon-remove"></i></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-center">#25</td>
+              <td>Brochure.pdf<br><span class="text-muted small">(0.5 MB)</span></td>
+              <td class=" hidden-sm hidden-xs">Random Name 2</td>
+              <td><p>Brochure of the company<p></td>
+              <td>
+                <ul class="sub-heading btn-dropbox-list">
+                  <li><i class="glyphicon glyphicon-arrow-down"></i></li>
+                  <li><i class="glyphicon glyphicon-remove"></i></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-center">#44</td>
+              <td>Company Presentations.rar<br><span class="text-muted small">(124.2 MB)</span></td>
+              <td class=" hidden-sm hidden-xs">Random Name 3</td>
+              <td><p>A compressed folder containing all the Presentations of the company.<p></td>
+              <td>
+                <ul class="sub-heading btn-dropbox-list">
+                  <li><i class="glyphicon glyphicon-arrow-down"></i></li>
+                  <li><i class="glyphicon glyphicon-remove"></i></li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Ending of Item in Table -->
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Ending of Flight Log Page -->
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<html>
+	<head>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+  <body>
+    <!-- Flight Log Page -->
+    <div class="container">
+      <!-- Place the BreadCrumb bar here -->
+
+      <!-- Breadcrum End -->
+      <!-- First Section - The  Aircraft Image and also the Information about the Aircraft comes in here -->
+      <div class="row margin-top-30">
+        <div class="col-lg-offset-2 col-md-offset-1 col-lg-2 col-sm-4 col-md-3 hidden-xs">
+          <img class="img-responsive img-thumbnail" src="img/img-test.jpg" height="100%" width="100%">
+        </div>
+        <div class="col-md-8 col-sm-8">
+          <div class="row">
+            <span class="heading pad-left-10">Aircraft N673</span><br>
+            <span class="small text-success pad-left-10">Pilantus PC 12</span>
+          </div>
+          <div class="row pad-top-20">
+            <div>
+              <span class="col-md-3 text-right bold col-xs-6">Serial :</span><span class="col-xs-6"># 41322</span><br>
+              <span class="col-md-3 text-right bold col-xs-6">Seats :</span><span class="col-xs-6">12</span><br>
+              <span class="col-md-3 text-right bold col-sm-6 col-xs-4">Home Airport :</span><p class="col-md-5 col-sm-5 col-xs-8 ">Airport Address Line 1,
+              Airport Address Line 2,
+              Airport Address Line 3</p>
+            </div>
+          </div>
+        </div>
+      </div>    
+      <!-- End of First section -->
+      <!-- Second Section - Aircraft users section comes in here -->
+      <div class="row container pad-top-30">
+        <span class="sub-heading">Aircraft Users</span><br>
+        <ul class="usertypes pad-top-10">
+          <li class="li-active">Active</li>
+          <li>Expired</li>
+        </ul>
+        <div class="row container table-responsive">
+          <table class="table table-bordered table-hover">
+            <tr>
+              <th class="col-md-5">Username</th>
+              <th class="col-md-5">Lease Agreement</th>
+              <th class="col-md-2"></th>
+            </tr>
+            <tr>
+              <td>John Doe</td>
+              <td>Personal Use</td>
+              <td><button class="btn btn-warning"><i class="fa fa-group"></i> Manifest</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>    
+      <!-- End of Second section -->
+      <!-- Third Section - Recent Flight Logs with ADD and SUBMIT Flight Buttons section comes in here -->
+      <div class="row container margin-top-30">
+        <div class="pull-left">
+          <span class="sub-heading">Recent Flight Logs</span><br>
+          <a class="text-info small" href="img/img-test.jpg">(View More Logs)</a>
+        </div>
+        <div class="pull-right">
+          <ul id="flight-options">
+            <li><i class="glyphicon glyphicon-plus"></i> Add Flight</li>
+            <li><i class="glyphicon glyphicon-ok"></i> Submit Flight</li>
+          </ul>
+        </div>
+        <div class="row container table-responsive pad-top-20">
+          <table class="col-md-12 col-xs-20 table table-hover table-bordered">
+            <tr>
+              <th class="col-md-1 small"></th>
+              <th class="col-md-1 small">Date</th>
+              <th class="col-md-1 small">Lease/Aircraft</th>
+              <th class="col-md-3 small">From</th>
+              <th class="col-md-3 small">To</th>
+              <th class="col-md-1 small">Hours</th>
+              <th class="col-md-2 small"></th>
+            </tr>
+            <tr>
+              <td>Arrows</td>
+              <td>2/11<br><b class="small">2014</b></td>
+              <td>Lease Type1</td>
+              <td><b><i class="fa fa-location-arrow flight-out"></i> EWR</b><br><span class="small">Newark Liberty International Airport</span></td>
+              <td><b><i class="fa fa-location-arrow flight-in"></i> DAL</b><br><span class="small">Dallas International Airport</span></td>
+              <td>10.0</td>
+              <td>
+                <ul class="btn-list">
+                  <li><button class="btn btn-primary">View</button></li>
+                  <li><button class="btn btn-danger">Delete</button></li>
+                  <li><button class="btn btn-default">Mark Final</button></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Arrows</td>
+              <td>12/11<br><b class="small">2014</b></td>
+              <td>Lease Type2</td>
+              <td><b><i class="fa fa-location-arrow flight-out"></i> DAL</b><br><span class="small">Dallas International Airport</span></td>
+              <td><b><i class="fa fa-location-arrow flight-in"></i> EWR</b><br><span class="small">Newark Liberty International Airport</span></td>
+              <td>10.5</td>
+              <td>
+                <ul class="btn-list">
+                  <li><button class="btn btn-primary">View</button></li>
+                  <li><button class="btn btn-danger">Delete</button></li>
+                  <li><button class="btn btn-default">Mark Final</button></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>    
+      <!-- End of Third section -->
+    </div>
+    <!-- Ending of Flight Log Page -->
+  </body>
+</html>
